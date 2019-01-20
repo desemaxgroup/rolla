@@ -1,0 +1,56 @@
+{
+    "name": "desemax/rolla",
+    "description": "Laravel roles and permissions.",
+    "keywords": [
+        "desemax",
+        "rolla",
+        "laravel",
+        "role",
+        "permission"
+    ],
+    "homepage": "https://github.com/desemax/rolla",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Trujillo Torres",
+            "email": "richard@desemax.com",
+            "homepage": "https://desemax.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Desemax\\Rolla\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Desemax\\Rolla\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Desemax\\Rolla\\RollaServiceProvider"
+            ],
+            "aliases": {
+                "Rolla": "Desemax\\Rolla\\RollaFacade"
+            }
+        }
+    }
+}
