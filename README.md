@@ -1,9 +1,7 @@
-# Very short description of the package
+# Laravel Roles and Permissions
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/rolla.svg?style=flat-square)](https://packagist.org/packages/spatie/:package_name)
-[![Build Status](https://img.shields.io/travis/spatie/rolla/master.svg?style=flat-square)](https://travis-ci.org/spatie/:package_name)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/rolla.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/:package_name)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/rolla.svg?style=flat-square)](https://packagist.org/packages/spatie/:package_name)
+
+// TODO add links
 
 
 // TODO description
