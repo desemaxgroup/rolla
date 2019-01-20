@@ -31,6 +31,6 @@ class RollaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'rolla');
+        $this->mergeConfigFrom(__DIR__.'/../config/rolla.php', 'rolla');
     }
 }
