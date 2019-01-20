@@ -40,7 +40,7 @@ If you discover any security related issues, please email richard@desemax.com in
 
 ## Credits
 
-- [Richard Trujillo Torres](https://github.com/"Richard Trujillo Torres")
+- [Richard Trujillo Torres](https://github.com/"RichardTrujilloTorres")
 - [All Contributors](../../contributors)
 
 ## License
